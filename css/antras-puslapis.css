@@ -62,9 +62,7 @@ a {
     line-height: 80px;
     color: rgb(255, 255, 255);
 }
-p {
-    align-self: flex-end;
-}
+
 
 .center_sale {
     width:100%;
@@ -90,8 +88,7 @@ p {
 .left_column {
     width: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;    
 }
 .right_column {
     width: 100%;
@@ -124,5 +121,55 @@ p {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+}
+.four {
+    width: 100%;
+}
+.products img {
+    width: 20%;
+    margin: 0;
+}
+.west {
+    line-height: 2rem;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.west a {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #333;
+}
+.west a:hover {
+    opacity: 0.7;
+}
+.offer {
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(163, 163, 216);
+}
+.tekstas {
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.tekstas h2{
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.line {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.dif {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
