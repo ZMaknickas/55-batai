@@ -65,20 +65,19 @@ a {
 
 
 .center_sale {
+    display:flex ;
+    flex-direction: column;
     width:100%;
-    margin-top: 5rem;
+    height: 60vh;
 }
-
-.center_sale img {
+.sale1{
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
-
-.sale_bottom {
-    width: 100%;
+.four {
     display: flex;
+    align-items: center;
     justify-content: center;
+    gap: 5px;
 }
 
 .high {
@@ -122,14 +121,26 @@ a {
     display: flex;
     flex-direction: column;
 }
-.four {
-    width: 100%;
+
+.nuotraukos {
+    display:flex ;
+    flex-direction: column;
+    width:100%;
 }
-.products img {
-    width: 20%;
-    margin: 0;
+.eile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
 }
+
+.eile img {
+    width: 12rem;
+    height: 12rem;
+}
+
 .west {
+    margin-top: 2rem;
     line-height: 2rem;
     font-size: 0.8rem;
     display: flex;
@@ -172,4 +183,41 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.last {
+    margin-top: 6rem;
+    margin-right: 20rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10rem;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.last_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}    
+
+.pirmas {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.nuorodos {
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+.column_three {
+    width: 30%;
 }
