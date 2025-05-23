@@ -86,17 +86,21 @@ a {
 }
 .left_column {
     width: 50%;
+    height: 50%;
     display: flex;
     flex-direction: column;    
 }
 .right_column {
-    width: 100%;
-    display: flex;  
+    justify-content: center;
+    margin-top: 19em;
+    width: 50%;
+    display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .right_half {
-    width: 50%;
+    width: 100%;
     background-color: rgb(212, 212, 240);
 }
 
@@ -115,6 +119,10 @@ a {
     width: 100%;
     display: flex;  
     flex-direction: column;
+    justify-content: center;
+    margin-top: 19em;
+    margin-left: 15em;
+    align-items: center;
 }
 .right_all {
     width: 50%;
@@ -193,83 +201,3 @@ a {
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }   
-
-.last_row {
-    margin-top: 1rem;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap:8rem;
-}
-
-.pirmas {
-    margin-left: 12rem;
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    gap: 0;
-}
-.email {
-    display: flex;
-    width: 100%;
-    gap: 20px;
-    align-items: center;
-}
-.em {
-    width: 8rem;
-    height: 1.5rem;
-}
-.bt {
-    border: none;
-    padding-top: 5px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    background-color: #1a1919;
-    border-radius: 7px;
-    color: white;
-}
-.nuorodos {
-    text-decoration: none;
-    font-size: 2rem;
-    gap: 20px;
-    display: flex;
-    width: 30%;
-    flex-direction: row;
-}
-
-.second_col {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    font-size: 16px;
-    line-height: 1.5rem;    
-}
-
-.column_three {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    line-height: normal;
-}
-.acc {
-    font-size: 16px;
-    line-height: 16px;
-    gap:0;
-}
-.lastbtn {
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-}
-.btn {
-    font-weight: bold;
-    font-size: 14px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 15rem;
-    display: flex;
-    text-transform: uppercase;
-    border: 1px solid gray;
-    justify-content: center;
-}
